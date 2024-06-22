@@ -1,0 +1,12 @@
+Installed minikube ( C:/minkube)
+Installed docker ( which inturn installed wls2 ) ( location ? ) 
+Started docker from windows startup
+Started kumbernetes:minikube.exe start
+D:/minkumber>minkube start
+Now docker shows that Kumbernetses is running. 
+Then from command promopt accessed kubernetes dashboard
+D:/minikube>minikube dashboard
+Above command launched a browser with kumbernetes dashboard. 
+
+Time to start experiment - hello minikube: https://kubernetes.io/docs/tutorials/hello-minikube/
+
