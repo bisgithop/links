@@ -1,0 +1,24 @@
+https://www.w3schools.com/js/js_function_closures.asp
+
+// Example
+function myCounter() {
+  let counter = 0;
+  return function() {
+    counter++;
+    return counter;
+  };
+}
+const add = myCounter();
+add();
+add();
+add();
+
+// the counter is now 3
+
+
+// A closure is a function that has access to the parent scope, after the parent function has closed.
+// Closures has historically been used to:
+// Create private variables - Now with let/cost probably this is done differently ? 
+// Preserve state between function calls - this is good
+// Simulate block-scoping before let and const existed - find out more
+// Implement certain design patterns like currying and memoization - find out more..
